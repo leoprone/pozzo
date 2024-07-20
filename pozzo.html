@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Prone</title>
+   <!-- <link rel="icon" href="assets/android-icon-192x192.png">
+    -->
+    <meta name="theme-color" content="rgb(91, 92, 92)"> 
+   <!--  <link rel="stylesheet" href="styles/base.css"> -->
+<!--    <link rel="stylesheet" href="styles/base.css">
+   <link rel="stylesheet" href="styles/home.css"> 
+   <link rel="stylesheet" href="styles/galeria.css">  -->
+    
+    <!--   <link rel="stylesheet" href="styles/albumes_comas.css"> 
+     <link rel="stylesheet" href="styles/temas_individuales.css">  
+     -->
+     <link rel="stylesheet" href="styles/base.css">
+<!-- 
+
+
+     <meta name="description" content="Modelo mecanicocuántico del átomo. Energía de orbitales. Radios covalentes o atómicos, iónicos. Energía de ionización. Afinidad electrónica.">
+<meta name="theme-color" content="rgb(31, 31, 31)">
+    
+<link rel="canonical" href="https://www.tomoclasesonline.com/quimica-general-inorganica/estructura-atomica-tabla-periodica.html">
+   
+<link rel="icon" href="https://www.tomoclasesonline.com/assets/favicon-tco.png">
+<link rel="apple-touch-icon" href="https://www.tomoclasesonline.com/assets/favicon-tco.png">
+
+ -->
+<!-- REDES SOCIALES -->
+
+
+<meta property="og:title" content="Pablo Comas - Sitio oficial">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://leoprone.github.io/pablocomas/index.html">
+<meta property="og:image" content="https://leoprone.github.io/pablocomas/assets/hambre-fondo.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Pablo Comas - Sitio oficial">
+<meta name="twitter:site" content="@eniun_es">
+<meta name="twitter:image" content="https://leoprone.github.io/pablocomas/assets/hambre-fondo.jpg">
+<meta name="twitter:creator" content="@andylluch">
+
+    <!--  <link rel="stylesheet" href="styles/album-index.css"> -->
+<!-- <link rel="stylesheet" href="styles/estilos2.css">-->
+<style type="text/css">
+			
+  * {
+    margin:0px;
+    padding:0px;
+  }
+  
+  body{
+    background-color: black;
+  }
+
+  .visibility-hidden{
+    visibility: hidden;
+  }
+
+.container-total{
+  position: relative;
+  font-size: 1px;
+  width: 100%;
+  
+  margin: 0 auto;
+  overflow-x: hidden;    
+  background: linear-gradient(90deg, rgb(93, 24, 24) 0%, rgb(152, 74, 74) 50%, rgb(57, 4, 4) 85%);
+  background-size: 2%;
+}
+
+
+
+  .pared-monitor{
+    position: relative;
+    top: -250em;
+    margin-bottom: -145em;
+    
+    width: 100%;
+    height: 500em;
+    background: linear-gradient(180deg, rgb(142, 38, 24) 0, rgb(92, 23, 14) 15%, rgb(68, 18, 18) 18%);
+  }
+
+ .monitor{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  --min-width: 300em;
+  --min-height: 169em;
+  width: calc(var(--n-fold) * var(--min-width));
+  height: calc(var(--n-fold) * var(--min-height));
+  margin: 250em auto 0 auto;
+  top: 140em;
+  --border-top-min: 8em;
+  --border-left-right-min: 5em;
+  --border-bottom-min: 20em;
+  --border-radius-min: 3em; 
+  --n-fold: 1.2;  /*  MOBILE FIRST  */  
+  border-top: calc(var(--n-fold) * var(--border-top-min)) solid black;
+  border-right:calc(var(--n-fold) * var(--border-left-right-min)) solid black;
+  border-bottom: calc(var(--n-fold) * var(--border-bottom-min)) solid black;
+  border-left: calc(var(--n-fold) * var(--border-left-right-min)) solid black;
+  border-radius: calc(var(--n-fold) * var(--border-radius-min));
+
+  background-color: rgb(39, 38, 38);
+  box-shadow: 0 20em 1rem .3rem rgb(46, 1, 1);
+ }
+
+
+
+
+
+.monitor video{
+  position: absolute;
+  width: 290em;
+  width: 100%;
+  height: 100%;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  
+  
+}
+
+
+
+.btn-video{
+  font-size: 14px;
+   margin-left: 0px;
+    color: white;
+    background-color: gray;
+  transition: background-color .3s;
+}
+
+.btn-video:hover{
+  color: red;
+  background-color: white;
+}
+
+
+  .ver-codigo{
+    position: relative;
+    display: block;
+    margin: 1em auto 0 auto;
+    padding: .5em 1em;
+    border-radius: 5em;
+    top: -27em;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 2em .2em rgb(139, 138, 138), inset 0 0 1.5rem .2rem rgb(207, 61, 61);
+    font-size: 20em;
+    
+    transition: .3s linear;
+    z-index: 30;
+  }
+  
+  .ver-codigo:hover{
+    
+   
+   box-shadow: 0 0 1em .1em rgb(178, 177, 177);
+  }
+  
+
+.notebook-table{
+  position: relative;
+  margin-top: -400em;
+ 
+}
+
+  .notebook{
+    position: relative;
+    margin: 0 auto;
+ 
+    width: 300em;
+    height: 400em;
+    top: -20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+    z-index: 1;
+  }
+
+@keyframes Open-Display{
+  0%{
+    transform: perspective(1000px) rotateX(-60deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateX(0deg);
+  }
+}
+ .display{
+  position: absolute;
+  top: 1.8%;
+  
+  width: 230em;
+  height: 200em;
+  background-image: url("assets/images/pantalla-notebook.png");
+  background-size: 134%;
+  background-position: 50% 18%;
+  background-repeat: no-repeat;
+  
+  z-index: 10;
+  transform-origin: 50% 83%;
+  transform: perspective(1000px) rotateX(-60deg);
+  
+} 
+
+.opacity-cero{
+  transition: 3s linear;
+  opacity: 0;
+  
+}
+
+.display-none{
+  display: none;
+}
+.open-display{
+  animation: Open-Display 5s ease-in both;
+  
+
+}
+
+.black-screen{
+  position: absolute;
+  top: 22em;
+  left: 5em;
+  width: 220em;
+  height: 125em;
+  background-color: rgb(44, 43, 43);
+  z-index: 30;
+}
+
+.kb{
+  position: relative;
+  width: 300em;
+  height: 150em;
+  background-image: url("assets/images/teclado-notebook.png");
+  background-size: 102%;
+  background-position: 60% 86%;
+  background-repeat: no-repeat;
+
+ 
+
+  color: white;
+ 
+  z-index: 5;
+}
+
+@keyframes Boton-Power{
+  0%, 100%{
+    opacity: .1;
+  }
+  50%{
+    opacity: .9;
+    box-shadow: 0 0 .2rem .05rem  rgb(177, 247, 177);;
+  }
+}
+
+.btn-power-notebook{
+  position: absolute;
+  top: 46em;
+  left: 238em;
+   width: 9em;
+   height: 6em;
+   border: 2em solid rgb(160, 163, 160, 0);
+   border-radius: 50%;
+}
+
+.animation-btn-power{
+  border: 2em solid rgb(130, 243, 130);
+  animation: Boton-Power 3s linear infinite;
+}
+
+  .explorer-container, .file-container {
+    
+    margin-top: 22em;
+
+    height: 125em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 47, 47);
+  }
+  
+ 
+.explorer-container{
+  margin-left: 4em;
+  padding-left: 2em;
+  width: 100em;
+  
+  border-right: 1em solid rgb(124, 125, 124);
+}
+
+.file-container{
+ 
+  width: 116em;
+  margin-top: -125em;
+  margin-left: 108.5em;
+  overflow-x: scroll;
+  
+  background-color: rgb(48, 47, 47);
+ 
+}
+
+.file{
+  overflow-x: scroll;
+}
+
+  ul, ol {
+    list-style:none;
+  }
+  
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+  
+.explorer-container::-webkit-scrollbar, .file-container::-webkit-scrollbar, .file::-webkit-scrollbar{
+  width: 2em;
+
+  
+  /* background: rgba(89, 210, 250, 0.707); */
+}
+
+.explorer-container::-webkit-scrollbar-thumb, .file-container::-webkit-scrollbar-thumb{
+ 
+  height: 5em;
+  border-radius: 20em;
+  background: rgba(236, 107, 107, 0.597);
+
+ 
+}
+
+
+  .nav > li {
+    float: right;
+    margin: 4em 0;
+  }
+  
+  .nav li span, .nav li button {
+    font-weight: 100;
+    font-size: 5em;
+    color:#fff;
+    text-decoration:none;
+    padding: 1em;
+    
+    transition: .3s;
+  }
+  
+  
+  
+  
+  .nav li ul {
+    display:none;
+    position:relative;
+    min-width:140em;
+    
+  }
+  
+  .nav li:hover > ul {
+    width: 100%;
+    display:block;
+   margin: 5em 0;
+    padding-left: 6em;
+    
+  }
+  
+  .nav li ul li {
+    position:relative;
+    
+  }
+  
+  .nav li ul li ul {
+    right:-140em;
+    top:0em;
+  }
+  
+
+
+
+
+  .nav li .li-index-html{
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+   
+    padding-left: 0;
+  }
+
+
+li ul li .li-js, li ul li .li-js>*, li ul li .li-css, li ul li .li-css>*, .li-album-html, .li-tema-html{
+  background-color: transparent;
+  border: none;
+  font-size: 4em;
+  
+}
+
+
+li ul li .js{
+  color: yellow;
+  font-size: 1em; 
+}
+
+li ul li .css{
+  color: rgb(0, 191, 255);
+  font-size: 1.4em; 
+}
+
+
+
+.nav li .html-icon{
+
+  display: inline-block;
+  padding: 0;
+  margin-right: 3em;
+  width: .5em;
+  height: .5em;
+  background-color: transparent;
+/*clip-path: polygon(45% 0, 25% 50%, 45% 100%, 0 50%, 45% 0, 55% 0, 100% 50%, 55% 100%, 75% 50%, 55% 0);
+ */ 
+}
+
+
+
+
+
+.table{
+  position: relative;
+  width: 100%;
+  height: 184em;
+  top: -320em;
+  background: linear-gradient(180deg, rgb(86, 85, 85) 0, rgb(209, 207, 207) 80%);
+  background: linear-gradient(180deg, rgb(75, 37, 27) 0, rgb(121, 64, 45) 80%);
+  box-shadow: 0 40em 3rem 1rem rgb(51, 50, 50);
+}
+
+
+
+
+.table::before{
+  content: "";
+  width: inherit;
+  height: 20em;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(45deg, rgb(69, 55, 55) 0, rgb(143, 82, 62) 60%);
+}
+
+
+.auriculares{
+  position: absolute;
+  bottom: 18%;
+  right: -5%;
+  z-index: 20;
+  width: 150em;
+  height: 130em;
+  
+
+  background-image: url("assets/images/auriculares.png");
+  background-size: 125%;
+
+  background-repeat: no-repeat;
+  background-position: 45% 50%;
+}
+
+.mic{
+  position: absolute;
+  bottom: 21%;
+  left: -15%;
+  z-index: 10;
+  width: 100em;
+  height: 180em;
+
+  
+  background-image: url("assets/images/mic.png");
+  background-size: 200%;
+ 
+  background-repeat: no-repeat;
+  background-position: 48.5% 50%;
+}
+
+
+.mouse{
+  position: absolute;
+  bottom: 24%;
+  right: 55%;
+  z-index: 20;
+  width: 74em;
+  height: 50em;
+ 
+  
+  background-image: url("assets/images/img_mouse.png");
+  background-size: 90%;
+ 
+  background-repeat: no-repeat;
+  background-position: 2em 5em;
+
+}
+
+
+@media screen and (min-width: 450px){
+  
+  .mic{
+    
+    left: -30%;
+  }
+
+  .auriculares{
+    right: -25%;
+  }
+}
+
+
+
+@media screen and (min-width: 768px){
+  .container-total{
+    font-size: 1.3px;
+    width: 90%;
+  }
+
+  .monitor{
+    --n-fold: 1.5;
+    top: 70px;
+  }
+  .mic{
+    bottom: 21%;
+    left: -45%;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 1024px){
+  .container-total{
+    font-size: 1.5px;
+    width: 80%;
+  }
+
+  .monitor{
+    --n-fold: 1.7;
+    top: 50px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 1150px){
+  .container-total{
+    font-size: 1.5px;
+    width: 80%;
+  }
+
+  .monitor{
+    --n-fold: 2;
+    margin-top: 500px;
+    
+    top: 10px;
+  }
+
+}
+
+
+
+.menu-desplegable select{
+  color: white;
+}
+
+.menu-select {
+  background: transparent;
+  width: 140px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  height: 35px;
+  
+}
+
+option:active{
+  color: greenyellow;
+}
+
+.btn-archivo{
+  background-color: transparent;
+  color: white;
+}
+
+
+
+code{
+ color: #ccc;
+  font-size: 7em;
+}
+
+.file{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.visible-none{
+  visibility: hidden;
+}
+
+.visible-yes{
+  visibility: visible;
+}
+</style>
+</head>
+<body class="body-home">
+
+
+  <header class="header">
+
+
+   <!--  -webkit-box-reflect: below 2rem linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+   
+ -->
+ <!-- 
+    <div class="compartir">
+      <h4>compartir</h4>
+      <div class="contenedor-redes">
+        <a class="facebook redes" href="javascript:void(0)" onclick="javascript:genericSocialShare('https://www.facebook.com/sharer.php?u=leoprone.github.io/pablocomas/index.html')">
+          <svg class="redes" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg>
+        </a>  
+  
+  
+  
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" target="_blank" rel="noopener">
+          <svg class="redes" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg>
+        </a>
+      </div>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    
+  
+
+    TEXTO TRANSPARENTE CON IMAGEN DE FONDO
+ 
+    h1{
+      width: 300px;
+      padding: 10px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: -8px 10px .5rem rgb(35, 34, 34);
+      text-align: center;
+      margin: 100px auto;
+      border: 10px solid rgb(198, 195, 195);
+      border-radius: 5px;
+      background: url("assets/images/img-yo.jpg") no-repeat center bottom;
+      -webkit-background-clip: text;
+      background-size: cover;
+      box-shadow: 0 15px 2rem .2rem black, inset 0 0 1rem .3rem rgb(125, 124, 124);
+      background-clip: text;
+      color: transparent;
+     
+    }
+     -->
+
+
+
+
+      <section class="container">       
+              <!--<div class="logo">
+               <a href="index.html#inicio"><img src="assets/android-icon-192x192.png" alt=""></a>
+              </div>-->        
+          
+<!--          
+              <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 20 20">
+                   <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 20 20">
+                   <path
+                     d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+                </svg>
+               </button> -->
+
+               <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24">
+                  <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24">
+                  <path
+                    d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/>
+                </svg>
+              </button>
+
+        <nav class="menu">
+          <a href="">leoprone@gmail.com</a>
+        <!--   <a href="index.html#discografia">Discografía</a>
+          <a href="index.html#galeria">Galería</a>
+          <a href="index.html#agenda">Agenda</a>
+          <a href="https://pablocomas.bandcamp.com/" target="_blank" rel="noopener">Tienda</a>
+          <a href="index.html#contacto">Contacto</a> -->
+          <!--<a href="privacy_policy.html">Política de Privacidad</a>-->
+          <br>
+          <br>
+
+        </nav>
+      </section>
+    </header>
+
+<div class="container-total">
+
+<div class="pared-monitor">
+  <div class="monitor">
+     <video id="video-graffiti" class="video video-graffiti display-none" src="assets/videos/video-graffiti-sin-fadein-comprimido.mp4" width="300" height="169"></video>
+    <!--  <video id="video-almendra" class="video display-none" src="assets/videos/almendra-video.webm" width="300" height="169"></video>
+    
+     <video id="video-demo-copa" class="video display-none" src="assets/videos/demo_copa_final.mp4" width="300" height="169"></video>
+
+     <video id="video-dibu" class="video display-none" src="assets/videos/video-dibu.mp4" width="300" height="169"></video>
+
+     <video id="video-julian-bandera" class="video display-none" src="assets/videos/julian-10-7-compr.mp4" width="300" height="169"></video>
+     <video id="video-messi-dos-copas" class="video display-none" src="assets/videos/messi-dos-copas-horizontal-compr.mp4" width="300" height="169"></video>
+ --> 
+  </div>
+</div>
+
+
+
+
+
+
+<div class="notebook-table">
+  <div class="notebook">
+    <div class="display">
+      <div class="black-screen"></div>
+      <div class="explorer-container">
+        
+          <ul class="nav">
+          <li><input type="button" id="btn-graffiti" class="btn-video" value="GRAFFITI"></li>
+            <!--   <li><input type="button" id="btn-almendra" class="btn-video" value="ALMENDRA"></li>
+             
+             <li><input type="button" id="btn-dibu" class="btn-video" value="DIBU"></li>
+ 
+             <li><input type="button" id="btn-julian-bandera" class="btn-video" value="JULIÁN-CANADÁ"></li>
+             <li><input type="button" id="btn-messi-dos-copas" class="btn-video" value="MESSI-FINAL"></li>
+-->
+            
+            <li><span>assets</span>
+              <ul class="submenu">
+                <li><a href="">img_1.jpg</a></li>
+                <li><a href="">img_2.jpgl</a></li>
+                <li><a href="">img_3.jpg</a></li>
+                <li><a href="">img_4.jpg</a>
+                <li><a href="">img_5.jpg</a>
+                <li><a href="">img_6.jpg</a>
+                
+                
+                  </ul>
+                </li>
+
+
+
+
+          
+                <li>
+                  <span>js</span>
+                  <ul>
+                    <li><button class="li-js"><span class="js">JS</span>index_final_comas.js</button></li>
+                    <li><button class="li-js"><span class="js">JS</span>pagina_album.js</button></li>
+                    <li><button class="li-js"><span class="js">JS</span>tema_individual.js</button></li>
+                  </ul>
+                </li>
+
+
+
+               
+                <li><span>styles</span>
+                  <ul class="submenu">
+                    <li><button class="li-css"><span class="css">#</span>album_basicos.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>base.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>album_dias_de_fuerza.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>dramatico_y_nocturno.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>galeria.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>hambre.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>home.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>la_ultima_rotacion_del_sol.css</button></li>
+                    <li><button class="li-css"><span class="css">#</span>tema_individual_basicos.css</button></li>
+                    
+                      </ul>
+                    </li>
+      
+      
+      
+                <li><button class="li-index-html"><span class="html-icon"></span><span>index.html</span></button></li>
+
+              </ul>
+            
+        
+      </div> 
+
+      <div class="file-container">
+        <pre id="file" class="file"></pre>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="kb">
+      <div class="btn-power-notebook"></div>
+    </div>
+
+
+
+    <div class="auriculares"></div>
+    <div class="mic"></div>
+    <div class="mouse"></div> 
+  </div>
+      
+  <button id="ver-codigo" class="ver-codigo">Demo</button>  
+  
+  <div class="table">
+    
+  </div> 
+</div>
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+
+
+
+      <div class="menu-desplegable">
+        <select class="menu-select">
+          <option value="enlace1">Enlace 1</option>
+          <option value="enlace2">Enlace 2</option>
+          <option value="enlace3">Enlace 3</option>
+          
+        </select>
+      </div>
+      
+
+      <button id="btn-home-css" class="btn-archivo">home.css</button>
+      <button id="" class="btn-archivo">index.html</button>
+      
+       -->
+</div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      
+        
+     <small><a href="">Desarrollo Web: LP</a></small>
+     
+    
+
+   </footer>
+<script src="js/pozzo.js"></script>
+  
+   <script type="text/javascript">
+    function genericSocialShare(url){
+        window.open(url,'sharer','toolbar=0,status=0,width=648,height=395');
+        return true;
+    }
+    </script>
+  
+
+</body>
+</html>
